@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: antiquewhite
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.header {
+    display: flex;
+
+}
+
+.logo {
+    padding: 15px;
+    width: 20%;
+}
+
+
+
+.navbar {
+    display: flex;
+    
+    background-color: #333;
+    
+    
+}
+
+.navbar a {
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-style: uppercase;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+h1 {
+    font-family: "Bungee Tint";
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 700px) {
+    .row, .navbar {   
+        flex-direction: column;
+    }
+
+    .header {
+        justify-content: center;
+        
+    
+    }
+  }
